@@ -259,4 +259,27 @@ h6{
     padding: 5px;
 }
 
+/* Aca termina la pagina de servicios */
+/* Aca empieza la pagina de soporte */
 
+.gridContainer1{
+    display: grid;
+    gap: 30px;
+    padding: 20px 5%;
+}
+.grid-item1{
+    border-radius: 10px;
+    border: #8b8b8b solid 3px;
+    background-color: rgb(235, 235, 235);
+    padding: 0px 10px 20px 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+    box-shadow: #000000 10px 10px 15px;
+}
+.grid-item1 h6{
+    color: #000000;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+.grid-item1 p{
+    font-size: 22px;
+}
