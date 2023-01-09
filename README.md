@@ -1,0 +1,1 @@
+Este es un proyecto creado por mi sobre compras, ventas y rentas de propiedades en la localidad de Buzios, Brasil. Aunque no sepa de precios ni mucho del tema por ser menor de edad, intento crear una página de este estilo para desafiar mis habilidades como programador.
