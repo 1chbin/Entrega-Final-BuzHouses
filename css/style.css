@@ -201,4 +201,62 @@ button:hover{
 }
 
 /* aca termina la pagina de tienda */
+/* aca empieza la pagina de servicios */
+
+h4{
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.caja3{
+    padding: 0.2% 1% 5% 1%;
+}
+.container2{
+    background: white;
+    border-radius: 6px;
+    padding: 1%;
+}
+h5{
+    color: rgb(0, 0, 0);
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+}
+.h5{
+    border-bottom: #000000 solid;
+}
+h6{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.opcion{
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Cinzel', serif;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.houseimg{
+    border-radius: 12px;
+    border: #000000 solid;
+    width: fit-content;
+    display: flex;
+}
+.houseimg img{
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.detalles textarea{
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+}
+
 
