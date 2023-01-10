@@ -21,7 +21,7 @@ header{
     align-items: center;
     padding: 1%;
 }
-a{
+header a{
     color: white;
     font-size: 150%;
     text-decoration: none;
@@ -294,4 +294,63 @@ h6{
 }
 .grid-item1 p{
     font-size: 22px;
+}
+
+/* Aca termina la pagina de soporte */
+/* Aca empieza la pagina de cuuenta */
+
+.caja4{
+    padding-top: 180px;
+    padding-bottom: 180px;
+    display: flex;
+}
+.registro{
+    width: 400px;
+    background-image: linear-gradient(to right bottom, #000000, #1b1b1b, #2e2e2e, #444444, #5a5a5a);
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    box-shadow: 10px 10px 20px black;
+}
+.registro h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.cuenta{
+    width: 100%;
+    height: 35px;
+    background: #00000000;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(0, 0, 253);
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.registro p{
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+}
+.registro a{
+    color: white;
+    text-decoration: none;
+}
+.registro a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.boton2{
+    width: 100%;
+    background: rgb(30, 30, 189);
+    color: white;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    cursor: pointer;
 }
