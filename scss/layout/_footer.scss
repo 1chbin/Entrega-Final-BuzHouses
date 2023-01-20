@@ -1,0 +1,19 @@
+footer{
+    background-image: $gradiant-1;
+    height: auto;
+    padding: 0.5%;
+    width: auto;
+    border-top: $color-1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        height: 40px;
+        width: auto;
+    }   
+    p{
+        color: white;
+    font-family: $typo-1;
+    font-size: 120%;
+    }
+}

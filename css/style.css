@@ -20,7 +20,7 @@ header {
     color: white;
     font-size: 150%;
     text-decoration: none;
-    font-family: 'Cinzel', serif; }
+    font-family: "Cinzel", serif; }
     header a:hover {
       text-decoration: underline; }
   header li {
@@ -30,3 +30,20 @@ header {
     width: auto; }
   header .pag {
     text-decoration: underline; }
+
+footer {
+  background-image: linear-gradient(to right bottom, #000000, #1b1b1b, #2e2e2e, #444444, #5a5a5a);
+  height: auto;
+  padding: 0.5%;
+  width: auto;
+  border-top: #cecece solid 0.8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  footer img {
+    height: 40px;
+    width: auto; }
+  footer p {
+    color: white;
+    font-family: "Cinzel", serif;
+    font-size: 120%; }
