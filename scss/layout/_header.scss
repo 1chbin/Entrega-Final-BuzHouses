@@ -1,0 +1,36 @@
+header{
+    background-image: $gradiant-1;
+    border-bottom: $color-1;
+    height: auto;
+    width: 100%;
+    .navbar{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-around;
+        height: auto;
+        align-items: center;
+        padding: 1%;
+    }
+    a{
+        color: white;
+        font-size: 150%;
+        text-decoration: none;
+        font-family: 'Cinzel', serif;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    li{
+        list-style: none;
+    }
+    .logo1{ 
+        img{
+        height: 40px;
+        width: auto;
+        }
+    }
+    .pag{
+        text-decoration: underline;
+    }
+}

@@ -2,3 +2,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+header {
+  background-image: linear-gradient(to right bottom, #000000, #1b1b1b, #2e2e2e, #444444, #5a5a5a);
+  border-bottom: #cecece solid 0.8vh;
+  height: auto;
+  width: 100%; }
+  header .navbar {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    align-items: center;
+    padding: 1%; }
+  header a {
+    color: white;
+    font-size: 150%;
+    text-decoration: none;
+    font-family: 'Cinzel', serif; }
+    header a:hover {
+      text-decoration: underline; }
+  header li {
+    list-style: none; }
+  header .logo1 img {
+    height: 40px;
+    width: auto; }
+  header .pag {
+    text-decoration: underline; }
