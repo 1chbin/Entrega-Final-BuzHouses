@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+header{
+    background-image: linear-gradient(to right bottom, #000000, #1b1b1b, #2e2e2e, #444444, #5a5a5a);
+    border-bottom: rgb(206, 206, 206) solid 0.8vh;
+    height: auto;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    align-items: center;
+    padding: 1%;
+}
+header a{
+    color: white;
+    font-size: 150%;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+}
+.logo1 img{
+    height: 40px;
+    width: auto;
+}
+.pag{
+    text-decoration: underline;
+}
+
+/* Aca termina el header */
+/* aca empieza el footer */
+
+footer{
+    background-image: linear-gradient(to right bottom, #000000, #1b1b1b, #2e2e2e, #444444, #5a5a5a);
+    height: auto;
+    padding: 0.5%;
+    width: auto;
+    border-top: rgb(206, 206, 206) solid 0.3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer img{
+    height: 40px;
+    width: auto;
+}
+footer p{
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 120%;
+}
+
+/* Aca termina el footer */
+/* Aca empieza la pagina inicio */
+
+main{
+    /* background-image: linear-gradient(to right bottom, #000000, #1b1b1b, #2e2e2e, #444444, #5a5a5a); */
+    background-image: linear-gradient(to right bottom, #ffffff, #dfdfdf, #c0c0c0, #a2a2a2, #858585);
+}
+.title1{
+    background-image: url(../assets/fondo.jpg);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title1 h1{
+    color: white;
+    font-size: 250%;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-decoration: underline
+}
+.container{
+    padding: 1%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.buz{
+    background-color: #00000088;
+    border-radius: 5%;
+    height: 10vh;
+    width: 300px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: white;
+    font-size: 250%;
+    font-family: 'Cinzel', serif;
+    padding: 1%;
+}
+.text{
+    padding: 2%;
+}
+.text1{
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 1.5%;
+    background: #00000086;
+    border-radius: 8px;
+}
+.boxForms{
+    background-color: #00000062;
+    border: #000000 solid 5px;
+}
+.forms{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+    padding: 2%;
+}
+input{
+    height: 2.5vh;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.algunos{
+    padding: 2%;
+    background: #00000079;
+    border-radius: 6px;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: minmax(240px, auto);
+    gap: 20px;
+    padding: 20px;
+}
+.grid-item{
+    border-radius: 15%;
+    border: #161616 solid 3px;
+}
+
+/* aca termina la pagina inicio */
+/* aca empieza la pagina tienda */
+
+.caja1{
+    border: #000000 solid 3px;
+    width: fit-content;
+    background-color: #00000070;
+    margin-left: 10px;
+}
+.busqueda{
+    padding: 20px;
+}
+.container1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    max-width: 524px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 1px 10px black;
+    transition: all 400ms ease;
+    cursor: default;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px black;
+    transform: translateY(-3%);
+}
+.contenido p{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+.contenido h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+.boton{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.boton button{
+    padding: 5px;
+    border: #4d98ee94 solid 3px;
+    border-radius: 6px;
+}
+.boton a{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #4d98ee44;
+}
+
+/* aca termina la pagina de tienda */
+/* aca empieza la pagina de servicios */
+
+h4{
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 27px;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    background: #0000006c;
+    border-radius: 6px;
+}
+.caja3{
+    padding: 0.2% 2% 5% 2%;
+}
+.container2{
+    background: white;
+    border-radius: 6px;
+    padding: 1%;
+    border: #000000 solid 3px;
+}
+h5{
+    color: rgb(0, 0, 0);
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+}
+.h5{
+    border-bottom: #000000 solid;
+}
+h6{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.opcion{
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Cinzel', serif;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.houseimg{
+    border-radius: 12px;
+    border: #000000 solid;
+    width: fit-content;
+    display: flex;
+}
+.houseimg img{
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.detalles textarea{
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+}
+
+/* Aca termina la pagina de servicios */
+/* Aca empieza la pagina de soporte */
+
+.gridContainer1{
+    display: grid;
+    gap: 30px;
+    padding: 20px 5%;
+}
+.grid-item1{
+    border-radius: 10px;
+    border: #8b8b8b solid 3px;
+    background-color: rgb(235, 235, 235);
+    padding: 0px 10px 20px 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+    box-shadow: #000000 10px 10px 15px;
+}
+.grid-item1 h6{
+    color: #000000;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+.grid-item1 p{
+    font-size: 22px;
+}
+
+/* Aca termina la pagina de soporte */
+/* Aca empieza la pagina de cuuenta */
+
+.caja4{
+    padding-top: 180px;
+    padding-bottom: 180px;
+    display: flex;
+}
+.registro{
+    width: 400px;
+    background-image: linear-gradient(to right bottom, #000000, #1b1b1b, #2e2e2e, #444444, #5a5a5a);
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    box-shadow: 10px 10px 20px black;
+}
+.registro h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.cuenta{
+    width: 100%;
+    height: 35px;
+    background: #00000000;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(0, 0, 253);
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.registro p{
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+}
+.registro a{
+    color: white;
+    text-decoration: none;
+}
+.registro a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.boton2{
+    width: 100%;
+    background: rgb(30, 30, 189);
+    color: white;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+/* aca termina la pagina de cuenta */
+
+/* vista para celular */
+@media (max-width:425px) {
+    header{
+        height: 40px;
+        padding-top: 5px;
+    }
+    header a{
+        font-size: 13px;
+    }
+    .logo1 img{
+        display: none;
+    }
+    .card img{
+        max-width: 425px;
+    }
+    .busqueda{
+        padding: 10px;
+        margin-left: 5px;
+    }
+    footer p{
+        font-size: 9px;
+    }
+    footer img{
+        width: auto;
+        height: 27px;
+    }
+    .contenido p{
+        font-size: 10px;
+    }
+    .contenido h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .grid-item1 h6{
+        font-size: 25px;
+    }
+    .grid-item1 p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:320px) {
+    .card img{
+        max-width: 320px;
+    }
+}
+
+@media (max-width:768px) {
+    h2{
+        font-size: 30px;
+    }
+}
+
