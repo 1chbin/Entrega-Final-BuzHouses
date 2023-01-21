@@ -1,6 +1,11 @@
 @import "./utilities/variable";
+@import "./utilities/mixin.scss";
 @import "./base/typo";
 @import "./base/reset";
 @import "./layout/header";
 @import "./layout/footer";
-@import "./layout/inicio"
+@import "./layout/inicio";
+@import "./layout/tienda";
+@import "./layout/servicios";
+@import "./layout/soporte";
+@import "./layout/cuenta"

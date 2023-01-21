@@ -1,5 +1,6 @@
 main{
     background-image: $gradiant-2;
+}
     .title1{
         background-image: url(../assets/fondo.jpg);
         height: 20vh;
@@ -18,16 +19,16 @@ main{
         display: flex;
         justify-content: left;
         align-items: center;
-    }
-    .buz{
-        background-color: #00000088;
-        border-radius: 10px;
-        height: 10vh;
-        width: 100%;
-        margin: 2px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        .buz{
+            background-color: #00000088;
+            border-radius: 10px;
+            height: 10vh;
+            width: 100%;
+            margin: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
     h2{
         color: white;
@@ -37,29 +38,29 @@ main{
     }
     .text{
         padding: 2%;
-    }
-    .text1{
-        color: white;
-        font-family: $typo-2;
-        padding: 1.5%;
-        background: #00000086;
-        border-radius: 8px;
+        .text1{
+            color: white;
+            font-family: $typo-2;
+            padding: 1.5%;
+            background: #00000086;
+            border-radius: 8px;
+        }
     }
     .boxForms{
         background-color: #00000062;
         border: #000000 solid 5px;
         margin: 2%;
-    }
-    .forms{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-flow: row;
-        padding: 2%;
-        input{
-            border: #000000 solid 2px;
-            border-radius: 5px;
-            font-family: $typo-2;
+        .forms{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-flow: row;
+            padding: 2%;
+            input{
+                border: #000000 solid 2px;
+                border-radius: 5px;
+                font-family: $typo-2;
+            }
         }
     }
     .algunos{
@@ -68,7 +69,7 @@ main{
         border-radius: 6px;
         h4{
             color: white;
-            font-family: 'Cinzel', serif;
+            font-family: $typo-1;
             font-size: 27px;
             padding: 1%;
             display: flex;
@@ -77,10 +78,10 @@ main{
             background: #0000006c;
             border-radius: 6px;
         }
-    }
-    input{
-        height: 2.5vh;
-        font-family: $typo-2;
+        input{
+            height: 2.5vh;
+            font-family: $typo-2;
+        }
     }
     .gridContainer{
         display: grid;
@@ -88,9 +89,8 @@ main{
         grid-auto-rows: minmax(240px, auto);
         gap: 20px;
         padding: 20px;
+        .grid-item{
+            border-radius: 15%;
+            border: #161616 solid 3px;
+        }
     }
-    .grid-item{
-        border-radius: 15%;
-        border: #161616 solid 3px;
-    }
-}
