@@ -1,0 +1,96 @@
+main{
+    background-image: $gradiant-2;
+    .title1{
+        background-image: url(../assets/fondo.jpg);
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1{
+            color: white;
+            font-size: 250%;
+            font-family: $typo-2;
+            text-decoration: underline
+        }
+    }
+    .container{
+        padding: 2%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .buz{
+        background-color: #00000088;
+        border-radius: 10px;
+        height: 10vh;
+        width: 100%;
+        margin: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+        color: white;
+        font-size: 250%;
+        font-family: $typo-1;
+        padding: 1%;
+    }
+    .text{
+        padding: 2%;
+    }
+    .text1{
+        color: white;
+        font-family: $typo-2;
+        padding: 1.5%;
+        background: #00000086;
+        border-radius: 8px;
+    }
+    .boxForms{
+        background-color: #00000062;
+        border: #000000 solid 5px;
+        margin: 2%;
+    }
+    .forms{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: row;
+        padding: 2%;
+        input{
+            border: #000000 solid 2px;
+            border-radius: 5px;
+            font-family: $typo-2;
+        }
+    }
+    .algunos{
+        padding: 2%;
+        background: #00000079;
+        border-radius: 6px;
+        h4{
+            color: white;
+            font-family: 'Cinzel', serif;
+            font-size: 27px;
+            padding: 1%;
+            display: flex;
+            justify-content: center;
+            text-decoration: underline;
+            background: #0000006c;
+            border-radius: 6px;
+        }
+    }
+    input{
+        height: 2.5vh;
+        font-family: $typo-2;
+    }
+    .gridContainer{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-auto-rows: minmax(240px, auto);
+        gap: 20px;
+        padding: 20px;
+    }
+    .grid-item{
+        border-radius: 15%;
+        border: #161616 solid 3px;
+    }
+}
