@@ -37,25 +37,25 @@
                 font-size: 15px;
                 padding: 10px;
             }
-            .boton{
-                padding: 10px;
-                display: flex;
-                justify-content: center;
-                button{
-                    padding: 5px;
-                    border: #4d98ee94 solid 3px;
-                    border-radius: 6px;
-                    a{
-                        font-family: $typo-2;
-                        font-size: 15px;
-                        color: #000000;
-                        text-decoration: none;
-                    }
-                    &:hover{
-                        background-color: #4d98ee44;
-                    }
-                }
-            }
+        }
+    }
+}
+.boton{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    button{
+        padding: 5px;
+        border: #4d98ee94 solid 3px;
+        border-radius: 6px;
+        a{
+            font-family: $typo-2;
+            font-size: 15px;
+            color: #000000;
+            text-decoration: none;
+        }
+        &:hover{
+            background-color: #4d98ee44;
         }
     }
 }

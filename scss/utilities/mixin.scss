@@ -1,6 +1,11 @@
 @mixin mixTitle-1{
     color: white;
-    font-size: 250%;
-    font-family: $typo-1;
+    font-family: 'Cinzel', serif;
+    font-size: 27px;
     padding: 1%;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    background: #0000006c;
+    border-radius: 6px;
 }

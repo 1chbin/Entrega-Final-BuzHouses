@@ -112,16 +112,6 @@ h2 {
   padding: 2%;
   background: #00000079;
   border-radius: 6px; }
-  .algunos h4 {
-    color: white;
-    font-family: "Cinzel", serif;
-    font-size: 27px;
-    padding: 1%;
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
-    background: #0000006c;
-    border-radius: 6px; }
   .algunos input {
     height: 2.5vh;
     font-family: "Merriweather Sans", sans-serif; }
@@ -170,18 +160,69 @@ h2 {
       .container1 .card .contenido p {
         font-size: 15px;
         padding: 10px; }
-      .container1 .card .contenido .boton {
-        padding: 10px;
+
+.boton {
+  padding: 10px;
+  display: flex;
+  justify-content: center; }
+  .boton button {
+    padding: 5px;
+    border: #4d98ee94 solid 3px;
+    border-radius: 6px; }
+    .boton button a {
+      font-family: "Merriweather Sans", sans-serif;
+      font-size: 15px;
+      color: #000000;
+      text-decoration: none; }
+    .boton button:hover {
+      background-color: #4d98ee44; }
+
+h4 {
+  color: white;
+  font-family: 'Cinzel', serif;
+  font-size: 27px;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  background: #0000006c;
+  border-radius: 6px; }
+
+.caja3 {
+  padding: 0.2% 2% 5% 2%; }
+  .caja3 .container2 {
+    background: white;
+    border-radius: 6px;
+    padding: 1%;
+    border: #000000 solid 3px; }
+    .caja3 .container2 .h5 {
+      border-bottom: #000000 solid; }
+      .caja3 .container2 .h5 h5 {
+        color: black;
+        font-family: "Cinzel", serif;
+        font-size: 30px; }
+    .caja3 .container2 h6 {
+      font-family: "Merriweather Sans", sans-serif;
+      font-size: 20px;
+      padding-top: 10px; }
+    .caja3 .container2 .opcion {
+      display: flex;
+      flex-flow: row wrap;
+      font-family: "Cinzel", serif;
+      gap: 10px;
+      padding-bottom: 10px; }
+    .caja3 .container2 .houseimg {
+      border-radius: 12px;
+      border: #000000 solid;
+      width: fit-content;
+      display: flex; }
+      .caja3 .container2 .houseimg img {
+        border-radius: 12px;
+        cursor: pointer;
         display: flex;
-        justify-content: center; }
-        .container1 .card .contenido .boton button {
-          padding: 5px;
-          border: #4d98ee94 solid 3px;
-          border-radius: 6px; }
-          .container1 .card .contenido .boton button a {
-            font-family: "Merriweather Sans", sans-serif;
-            font-size: 15px;
-            color: #000000;
-            text-decoration: none; }
-          .container1 .card .contenido .boton button:hover {
-            background-color: #4d98ee44; }
+        width: 100%;
+        height: auto; }
+    .caja3 .container2 .detalles textarea {
+      height: 100px;
+      width: 100%;
+      padding: 5px; }

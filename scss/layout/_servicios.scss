@@ -1,0 +1,50 @@
+h4{
+    @include mixTitle-1;
+}
+.caja3{
+    padding: 0.2% 2% 5% 2%;
+    .container2{
+        background: white;
+        border-radius: 6px;
+        padding: 1%;
+        border: #000000 solid 3px;
+        .h5{
+            border-bottom: #000000 solid;
+            h5{
+                color: rgb(0, 0, 0);
+                font-family: $typo-1;
+                font-size: 30px;
+            }
+        }
+        h6{
+            font-family: $typo-2;
+            font-size: 20px;
+            padding-top: 10px;
+        }
+        .opcion{
+            display: flex;
+            flex-flow: row wrap;
+            font-family: $typo-1;
+            gap: 10px;
+            padding-bottom: 10px;
+        }
+        .houseimg{
+            border-radius: 12px;
+            border: #000000 solid;
+            width: fit-content;
+            display: flex;
+            img{
+                border-radius: 12px;
+                cursor: pointer;
+                display: flex;
+                width: 100%;
+                height: auto;
+            }
+        }
+        .detalles textarea{
+            height: 100px;
+            width: 100%;
+            padding: 5px;
+        }
+    }
+}
