@@ -48,7 +48,7 @@ footer {
     font-family: "Cinzel", serif;
     font-size: 120%; }
 
-main {
+body {
   background-image: linear-gradient(to right bottom, #ffffff, #dfdfdf, #c0c0c0, #a2a2a2, #858585); }
 
 .title1 {
@@ -226,3 +226,21 @@ h4 {
       height: 100px;
       width: 100%;
       padding: 5px; }
+
+.gridContainer1 {
+  display: grid;
+  gap: 30px;
+  padding: 20px 5%; }
+  .gridContainer1 .grid-item1 {
+    border-radius: 10px;
+    border: #8b8b8b solid 3px;
+    background-color: #ebebeb;
+    padding: 0px 10px 20px 10px;
+    font-family: "Merriweather Sans", sans-serif;
+    box-shadow: #000000 10px 10px 15px; }
+    .gridContainer1 .grid-item1 h6 {
+      color: #000000;
+      font-size: 40px;
+      padding: 10px 0px 5px 0px; }
+    .gridContainer1 .grid-item1 p {
+      font-size: 22px; }
