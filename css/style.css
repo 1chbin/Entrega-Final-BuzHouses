@@ -244,3 +244,51 @@ h4 {
       padding: 10px 0px 5px 0px; }
     .gridContainer1 .grid-item1 p {
       font-size: 22px; }
+
+.caja4 {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  display: flex; }
+  .caja4 .registro {
+    width: 400px;
+    background-image: linear-gradient(to right bottom, #000000, #1b1b1b, #2e2e2e, #444444, #5a5a5a);
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    box-shadow: 10px 10px 20px black; }
+    .caja4 .registro h1 {
+      font-size: 30px;
+      margin-bottom: 20px; }
+    .caja4 .registro p {
+      text-align: center;
+      height: 40px;
+      font-size: 20px; }
+    .caja4 .registro a {
+      color: white;
+      text-decoration: none; }
+      .caja4 .registro a:hover {
+        color: white;
+        text-decoration: underline; }
+    .caja4 .registro .cuenta {
+      width: 100%;
+      height: 35px;
+      background: #00000000;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      border: 1px solid #0000fd;
+      font-family: 'Merriweather Sans', sans-serif;
+      font-size: 20px;
+      color: white; }
+    .caja4 .registro .boton2 {
+      width: 100%;
+      background: #1e1ebd;
+      color: white;
+      height: 40px;
+      border: none;
+      font-size: 20px;
+      margin-top: 18px;
+      margin-bottom: 18px;
+      cursor: pointer; }
