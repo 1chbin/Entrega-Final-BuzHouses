@@ -1,0 +1,57 @@
+@media (max-width:425px) {
+    header{
+        height: 40px;
+        padding-top: 5px;
+        a{
+            font-size: 13px;
+        }
+        .logo1{
+            img{
+                display: none;
+            }
+        }
+    } 
+    footer{
+        p{
+            font-size: 9px;
+        }
+        img{
+            width: auto;
+            height: 27px;
+        }
+    }
+    .caja1{
+        .busqueda{
+            padding: 10px;
+            margin-left: 5px;
+        }
+    }
+    .container1{
+        .card{
+            img{
+                max-width: 425px;
+            }
+            .contenido{
+                p{
+                    font-size: 10px;
+                }
+                h3{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    h4{
+        font-size: 20px;
+    }
+    .gridContainer1{
+        .grid-item1{
+            h6{
+                font-size: 25px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}
