@@ -82,7 +82,8 @@ h2 {
   color: white;
   font-size: 250%;
   font-family: "Cinzel", serif;
-  padding: 1%; }
+  padding: 1%;
+  text-align: center; }
 
 .text {
   padding: 2%; }
@@ -188,31 +189,47 @@ h4 {
   justify-content: center;
   text-decoration: underline;
   background: #0000006c;
-  border-radius: 6px; }
+  border-radius: 6px;
+  text-align: center; }
 
 .caja3 {
-  padding: 1% 2% 5% 2%; }
+  padding: 2% 2% 5% 2%; }
   .caja3 .container2 {
     background: white;
     border-radius: 6px;
     padding: 1%;
-    border: #000000 solid 3px; }
+    border: #000000 solid 3px;
+    box-shadow: black 10px 10px 50px; }
     .caja3 .container2 .h5 {
-      border-bottom: #000000 solid; }
+      border-bottom: #000000 solid;
+      display: flex;
+      justify-content: center; }
       .caja3 .container2 .h5 h5 {
-        color: black;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.712);
+        width: fit-content;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 15px;
+        border-radius: 10px;
         font-family: "Cinzel", serif;
-        font-size: 30px; }
+        font-size: 40px; }
     .caja3 .container2 h6 {
       font-family: "Merriweather Sans", sans-serif;
-      font-size: 20px;
-      padding-top: 10px; }
+      font-size: 30px;
+      padding-top: 15px;
+      margin-bottom: 15px;
+      text-decoration: underline; }
     .caja3 .container2 .opcion {
       display: flex;
       flex-flow: row wrap;
-      font-family: "Cinzel", serif;
+      font-family: "Merriweather Sans", sans-serif;
       gap: 10px;
-      padding-bottom: 10px; }
+      padding-bottom: 10px;
+      font-size: 25px; }
+      .caja3 .container2 .opcion input[type="radio"] {
+        width: 20px;
+        cursor: pointer; }
     .caja3 .container2 .houseimg {
       border-radius: 12px;
       border: #000000 solid;
@@ -344,7 +361,27 @@ h4 {
       width: 100%; }
   .gridContainer {
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    grid-auto-rows: minmax(200px, auto); } }
+    grid-auto-rows: minmax(200px, auto); }
+  h4 {
+    margin-top: 10px; }
+  .caja3 {
+    padding: 40px 2% 70px 2%; }
+    .caja3 .container2 {
+      border-radius: 12px; }
+      .caja3 .container2 h6 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+        text-align: center; }
+      .caja3 .container2 .h5 h5 {
+        font-size: 22px;
+        margin-bottom: 3px; }
+      .caja3 .container2 .opcion {
+        justify-content: center;
+        font-size: 22px; }
+        .caja3 .container2 .opcion input[type="radio"] {
+          width: 15px; } }
 
 @media (max-width: 320px) {
   header a {
@@ -352,4 +389,6 @@ h4 {
   .container1 .card img {
     max-width: 320px; }
   .title1 h1 {
-    font-size: 21px; } }
+    font-size: 21px; }
+  h4 {
+    font-size: 18px; } }
