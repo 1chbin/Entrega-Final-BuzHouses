@@ -4,12 +4,12 @@
     display: flex;
     .registro{
         width: 400px;
-        background-image: linear-gradient(to right bottom, #000000, #1b1b1b, #2e2e2e, #444444, #5a5a5a);
+        background-image: $gradiant-1;
         padding: 30px;
         margin: auto;
         border-radius: 10px;
         color: white;
-        font-family: 'Merriweather Sans', sans-serif;
+        font-family: $typo-2;
         box-shadow: 10px 10px 20px black;
         h1{
             font-size: 30px;
@@ -36,7 +36,7 @@
             border-radius: 4px;
             margin-bottom: 20px;
             border: 1px solid rgb(0, 0, 253);
-            font-family: 'Merriweather Sans', sans-serif;
+            font-family: $typo-2;
             font-size: 20px;
             color: white;
         }

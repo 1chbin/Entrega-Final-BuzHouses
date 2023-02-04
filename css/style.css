@@ -130,12 +130,20 @@ h2 {
     cursor: pointer; }
 
 .caja1 {
-  border: #000000 solid 3px;
   width: fit-content;
-  background-color: #00000070;
-  margin-left: 10px; }
+  margin: 10px;
+  border: #000000 solid 3px;
+  background-color: #0000001c;
+  border-radius: 10px; }
   .caja1 .busqueda {
-    padding: 20px; }
+    padding: 10px; }
+    .caja1 .busqueda input {
+      height: 25px;
+      border: #1542d4 solid 3px;
+      border-radius: 5px;
+      font-size: 15px;
+      font-family: "Merriweather Sans", sans-serif;
+      margin: 6px; }
 
 .container1 {
   width: 100%;
@@ -260,7 +268,8 @@ h4 {
     .gridContainer1 .grid-item1 h6 {
       color: #000000;
       font-size: 40px;
-      padding: 10px 0px 5px 0px; }
+      padding: 10px 0px 15px 0px;
+      text-align: center; }
     .gridContainer1 .grid-item1 p {
       font-size: 22px; }
 
@@ -275,7 +284,7 @@ h4 {
     margin: auto;
     border-radius: 10px;
     color: white;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: "Merriweather Sans", sans-serif;
     box-shadow: 10px 10px 20px black; }
     .caja4 .registro h1 {
       font-size: 30px;
@@ -298,7 +307,7 @@ h4 {
       border-radius: 4px;
       margin-bottom: 20px;
       border: 1px solid #0000fd;
-      font-family: 'Merriweather Sans', sans-serif;
+      font-family: "Merriweather Sans", sans-serif;
       font-size: 20px;
       color: white; }
     .caja4 .registro .boton2 {
@@ -326,12 +335,11 @@ h4 {
     width: auto;
     height: 27px; }
   .caja1 .busqueda {
-    padding: 10px;
-    margin-left: 5px; }
+    padding: 5px; }
   .container1 .card img {
     max-width: 425px; }
   .container1 .card .contenido p {
-    font-size: 10px; }
+    font-size: 15px; }
   .container1 .card .contenido h3 {
     font-size: 20px; }
   h4 {
@@ -381,7 +389,17 @@ h4 {
         justify-content: center;
         font-size: 22px; }
         .caja3 .container2 .opcion input[type="radio"] {
-          width: 15px; } }
+          width: 15px; }
+  .caja4 .registro {
+    width: 300px;
+    padding: 20px; }
+    .caja4 .registro h1 {
+      font-size: 24px;
+      padding-top: 5px; }
+    .caja4 .registro p {
+      font-size: 18px; }
+    .caja4 .registro a {
+      font-size: 18px; } }
 
 @media (max-width: 320px) {
   header a {
@@ -391,4 +409,8 @@ h4 {
   .title1 h1 {
     font-size: 21px; }
   h4 {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .gridContainer1 .grid-item1 h6 {
+    font-size: 22px; }
+  .caja4 .registro {
+    width: 285px; } }
